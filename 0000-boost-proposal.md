@@ -11,28 +11,29 @@
 This HIP proposes a modification to current boosting methods and burn mechanics. The HIP proposes a shift from the current multiplier based system to a "bonus" based system. It also makes modifications to how SP burns work for boosts and where the resulting boosted rewards would be pooled from.
 The inention of the HIP is to better align boosted hex rewards with desired radios for a boost location by giving SPs the ability to specifically designate what a hex's bonus is worth for a specific radio's coverage (indoor/outdoor and wfif/CBRS). This would allow for better boost designations and the balancing of boosted rewards between different radios that multiplying Coverage Points unintentionally creates.
 
+This HIP will supersede HIPs: 84, 121 (if passed), and 122 (if passed). Previously boosted hexes under these HIPs will continue until boost expiration.
+
 <!-- Read the content requests in all sections before starting to write any section. -->
 
 ## Motivation
 
-- Why are we doing this?
-- What use cases does it support?
-- What problems does it solve?
-- What is the expected outcome?
+Gives SPs better pathways to clearly identify a boosted hex's worth.
+Provides a better burn and boost mechanic between the SP and MOBILE subDAO.
+Solves the issue created by multipliers disproportionally afecting one type of deployment over another.
 
 ## Stakeholders
 
-- Who is affected by this HIP? A stakeholder is any individual, group, or party such as network
-  users, Hotspot hosts, or token holders.
-- How are we soliciting feedback on this HIP from these stakeholders? Note that they may not be
-  watching the HIP repository or even directly active in the Helium Community chat channels.
+Deployers: Effects on boosting would be a shift from multiplied MCP to a bonus approach. Rewarding "bonus" mobile for hex coverage vs mobile earned from multiplied coverage points.
+Service Providers: Will be affected by the new system and burn mechanics, allowing a higher, more proportional burn required for bonuses to be dealt out by the other emission buckets (SP and PoC).
 
 ## Detailed Explanation
 
-- Introduce and explain new concepts.
-- It should be reasonably clear how the proposal would be implemented.
-- Provide representative examples that show how this proposal would be commonly used.
-- Corner cases should be dissected by example.
+This HIP proposes an overhual of the existing boosting method on the MOBILE network. Proposing to: 
+  -Replace boost multipliers with bonuses
+  -Modify the burn requirments from SPs for bonuses
+  -Redefine how bonuses are rewarded at the per coverage type level and where bonuses come from once a burn from an SP occurs
+
+  **Replacment of multiplier boosting with bonus incentives**
 
 ## Drawbacks
 
