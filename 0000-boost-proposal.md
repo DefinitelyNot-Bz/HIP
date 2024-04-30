@@ -36,7 +36,12 @@ This HIP proposes an overhual of the existing boosting method on the MOBILE netw
 
   -Redefine how bonuses are rewarded at the per coverage type level and where bonuses come from once a burn from an SP occurs
 
-  **Replacment of multiplier boosting with bonus incentives**
+
+**Replacment of multiplier boosting with bonus incentives**
+The current issue with the multiplier based boosting system is the uncertainty created by rewarding boosts based on multiplied coverage points. The issue with this model is that it moves inline with total network coverage points, meaning a boosted deployment can earn more or less from boosted rewards if networkwide coverage points fluctuate. This effect has been more obvious recently due to HIPs reallocating large ammounts of network coverage points (103 and 113). 
+
+*&bring up the overlap issue in the "define how bonuses are rewarded stage
+
 
 ## Drawbacks
 
