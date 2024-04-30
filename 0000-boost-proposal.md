@@ -29,8 +29,11 @@ Service Providers: Will be affected by the new system and burn mechanics, allowi
 ## Detailed Explanation
 
 This HIP proposes an overhual of the existing boosting method on the MOBILE network. Proposing to: 
+ 
   -Replace boost multipliers with bonuses
+
   -Modify the burn requirments from SPs for bonuses
+
   -Redefine how bonuses are rewarded at the per coverage type level and where bonuses come from once a burn from an SP occurs
 
   **Replacment of multiplier boosting with bonus incentives**
