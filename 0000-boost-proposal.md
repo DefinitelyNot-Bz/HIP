@@ -1,14 +1,15 @@
-# HIP Template (Give it a title here but do not allocate a number, maintainer will allocate a number)
+# HIP-XXXX Modification to SP Hex Boosting Processes
 
-- Author(s): <!-- your GitHub @username -->
-- Start Date: <!-- fill me in with today's date, YYYY-MM-DD -->
-- Category: <!-- economic, technical, meta -->
+- Author(s): Bz
+- Start Date: 04/30/2024
+- Category: Economic
 - Original HIP PR: <!-- leave this empty; maintainer will fill in ID of this pull request -->
 - Tracking Issue: <!-- leave this empty; maintainer will create a discussion issue -->
 
 ## Summary
 
-One paragraph explanation of the proposal.
+This HIP proposes a modification to current boosting methods and burn mechanics. The HIP proposes a shift from the current multiplier based system to a "bonus" based system. It also makes modifications to how SP burns work for boosts and where the resulting boosted rewards would be pooled from.
+The inention of the HIP is to better align boosted hex rewards with desired radios for a boost location by giving SPs the ability to specifically designate what a hex's bonus is worth for a specific radio's coverage (indoor/outdoor and wfif/CBRS). This would allow for better boost designations and the balancing of boosted rewards between different radios that multiplying Coverage Points unintentionally creates.
 
 <!-- Read the content requests in all sections before starting to write any section. -->
 
